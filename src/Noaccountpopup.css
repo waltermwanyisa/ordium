@@ -1,0 +1,41 @@
+.popup-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: var(--primary-bg-color);
+    padding: 2rem;
+    border-radius: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.popup-content p {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.popup-content button {
+    padding: 0.8rem 1.6rem;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.popup-content button:hover {
+    background-color: #f0f0f0;
+}

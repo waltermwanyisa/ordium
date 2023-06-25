@@ -1,0 +1,21 @@
+/* .chart-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.chart-wrapper svg {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .chart-wrapper {
+    width: 90% !important;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .google-chart-wrapper {
+    width: 100%;
+  }
+} */

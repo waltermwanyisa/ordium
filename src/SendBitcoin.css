@@ -1,0 +1,93 @@
+.m-card {
+    background-color: #16182d;
+    border-radius: 0;
+    font-family: 'Poppins', serif;
+    border: none;
+}
+
+.m-button {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    padding: 0.3rem 1.5rem;
+    margin-top: 1.5rem;
+    color: #0f1031;
+}
+
+.m-button:hover {
+    background-color: #091023;
+}
+
+.m-input {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', serif;
+    color: #0f1031;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.send-button {
+    background-color: #0f1031;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    padding: 0.2rem 1.6rem;
+    margin-top: 2rem;
+    color: #ffffff;
+    border: #FFFFFF 1px solid;
+}
+
+.Satoshi {
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.send-button:hover {
+    background-color: #091023;
+}
+
+.ant-modal-content {
+    background-color: #16182d !important;
+    border: none !important;
+}
+
+.ant-card-bordered {
+    border: none !important;
+}
+
+.ant-modal-title {
+    font-family: 'Poppins', serif !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+
+.ant-modal-header {
+    background-color: #16182d !important;
+    border-bottom: none !important;
+}
+
+.ant-modal-body {
+    font-family: 'Poppins', serif !important;
+}
+
+
+.ant-btn:hover {
+    background-color: #f0f0f0 !important;
+}
+
+.ant-modal-close-x {
+    color: #ffffff !important;
+    transform: rotate(90deg) !important;
+}
+
+.table {
+    color: #9ca0d2 !important;
+}
